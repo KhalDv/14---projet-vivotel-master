@@ -260,7 +260,7 @@
         off_services INT NOT NULL,
         off_prix FLOAT
     ) ENGINE=InnoDB;
-
+ 
     DROP TABLE IF EXISTS Choisir ;
     CREATE TABLE Choisir (
         cho_id  INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
